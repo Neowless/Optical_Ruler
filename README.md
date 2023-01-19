@@ -63,4 +63,13 @@ One of the most important parts in this project is the fringes recgnition softwa
 
 First of all, is how to deal with image transmitted from the camera. Embedded system or sdk on PC?
 
-The algorithm is not hard for me (XD), this can be easily solved。
+The algorithm is not hard for me (XD), this can be easily solved.
+
+## Optical Encoder
+
+We are not sure whether the encoder refered in the introduction is the same as the picture shown below.
+
+<div align=center><img width="500" src="OE.jpeg"/></div>
+
+<div align=center><text>Figure 2. Two Types of Optical Encoder</text></div>
+
