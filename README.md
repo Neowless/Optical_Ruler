@@ -82,6 +82,11 @@ It is also possible to use interferometry for absolute distance measurement (ADM
 
 A popular ADM technique for industrial measurements is phase detection of a modulated polarization plane, which is used by Leica in laser trackers. The phase of a reference signal is compared with the phase of a measurement signal. This may be considered as a form of interferometry since modulated waveforms are compared with each other, although these types of ADM are generally not referred to as interferometers. In any case, it overlaps in terms of application and performance.
 
+<div align=center><img width="500" src="ADM.jpeg"/></div>
+
+<div align=center><text>Figure 3. ADM</text></div>
+
+
 Phase detection of a modulated polarization plane uses a modulated signal rather than the waveform of the light its-self. This allows the frequency and wavelength to be easily adjusted until the reference signal and measurement signal are in-phase. The frequency $f_{1}$ can be recorded before being increased to the next frequency $f_{2}$ where both signals are in phase. The distance in each case is given by the following equations:
 
 $$
