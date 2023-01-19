@@ -73,3 +73,29 @@ We are not sure whether the encoder refered in the introduction is the same as t
 
 <div align=center><text>Figure 2. Two Types of Optical Encoder</text></div>
 
+# Literature Review
+
+Fringe counting interferometers can achieve extremely accurate measurements with direct traceability to primary length standards. However, they don’t directly measure distance. Instead, they measure displacement. In order to measure a distance, the displacement between the two end points must be measured, counting fringes continuously without breaking the laser beam, something that can be difficult and time-consuming in a production environment.
+
+
+It is also possible to use interferometry for absolute distance measurement (ADM). This means that the distance to the measurement mirror can be directly determined without continuously counting fringes between a starting and finishing position. The laser bean can, therefore, be broken and picked up again during a displacement measurement. Not all laser ADM measurements use interferometry. The time-of-flight method mentioned above is one example.
+
+A popular ADM technique for industrial measurements is phase detection of a modulated polarization plane, which is used by Leica in laser trackers. The phase of a reference signal is compared with the phase of a measurement signal. This may be considered as a form of interferometry since modulated waveforms are compared with each other, although these types of ADM are generally not referred to as interferometers. In any case, it overlaps in terms of application and performance.
+
+Phase detection of a modulated polarization plane uses a modulated signal rather than the waveform of the light its-self. This allows the frequency and wavelength to be easily adjusted until the reference signal and measurement signal are in-phase. The frequency $f_{1}$ can be recorded before being increased to the next frequency $f_{2}$ where both signals are in phase. The distance in each case is given by the following equations:
+
+$$
+d = \frac{\lambda_{1}}{1}N_{1}
+$$
+
+$$
+d = \frac{\lambda_{2}}{2}N_{2}
+$$
+
+$d$ is the distance being measured.  $\lambda_{1}$ and $\lambda_{2}$ are the wavelengths at each recorded frequency where the signals are in-phase. $N_{1}$ and $N_{2}$  are the corresponding integer numbers of wavelengths over the length d.We can use the fact that the waves were not in phase for any wavelengths between $\lambda_{1}$ and $\lambda_{2}$ to deduce that $N_{2} = N_{1}+1$ . We can also use the fundamental wave equation to substitute the wavelength for the frequency and speed of light, $c$.
+
+$$
+d = \frac{c}{2(f_{1}-f_{2})}
+$$
+
+ADM measurements allow beam breaks during measurement operations and make measurement in a production environment far more practical.Another highly accurate form of ADM is known as frequency scanning interferometry (FSI). This is a similar technique but rather than adjusting the wavelength of a modulated signal, a tunable laser is used so that the wavelength of the light itself is tuned. FSI was developed by researchers at the University of Oxford to monitor the positions of detectors in the Large Hadron Collider. This required several hundred interferometers arranged in a geodetic grid so that shape changes of the particle tracker could be continuously monitored with micrometer resolution over tens of meters. This measurement system was required to maintain accuracy without any access or maintenance over a 10-year period. A particular challenge was that vibrations change the optical path distance during the laser tuning process. The FSI measurement method that emerged uses a single scanning laser source, fiber channeled to hundreds of individual interferometer lines. The measurements have direct traceability to the fundamental definition of the meter, based on the speed of light, so it needs direct calibration. It is now being adapted into industrial measurement instruments, such as the FSI based optical CMM developed by NPL and the multiline machine monitoring and calibration system developed by Etalon.
