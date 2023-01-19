@@ -1,0 +1,3 @@
+%The Starting Position of the Laser is (0,0) the angle is 0
+%The Position of the Beam Splitter is (0.1,0), the angle is 45(+-x)
+%It will meet the the Beam Splitter at (0.1,0)
