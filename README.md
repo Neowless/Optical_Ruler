@@ -74,7 +74,7 @@ We are not sure whether the encoder refered in the introduction is the same as t
 <div align=center><text>Figure 2. Two Types of Optical Encoder</text></div>
 
 # Literature Review
-
+## Industrial Exaple
 Fringe counting interferometers can achieve extremely accurate measurements with direct traceability to primary length standards. However, they don’t directly measure distance. Instead, they measure displacement. In order to measure a distance, the displacement between the two end points must be measured, counting fringes continuously without breaking the laser beam, something that can be difficult and time-consuming in a production environment.
 
 
@@ -104,3 +104,5 @@ d = \frac{c}{2(f_{1}-f_{2})}
 $$
 
 ADM measurements allow beam breaks during measurement operations and make measurement in a production environment far more practical.Another highly accurate form of ADM is known as frequency scanning interferometry (FSI). This is a similar technique but rather than adjusting the wavelength of a modulated signal, a tunable laser is used so that the wavelength of the light itself is tuned. FSI was developed by researchers at the University of Oxford to monitor the positions of detectors in the Large Hadron Collider. This required several hundred interferometers arranged in a geodetic grid so that shape changes of the particle tracker could be continuously monitored with micrometer resolution over tens of meters. This measurement system was required to maintain accuracy without any access or maintenance over a 10-year period. A particular challenge was that vibrations change the optical path distance during the laser tuning process. The FSI measurement method that emerged uses a single scanning laser source, fiber channeled to hundreds of individual interferometer lines. The measurements have direct traceability to the fundamental definition of the meter, based on the speed of light, so it needs direct calibration. It is now being adapted into industrial measurement instruments, such as the FSI based optical CMM developed by NPL and the multiline machine monitoring and calibration system developed by Etalon.
+
+[Detecting nanometric displacements with optical ruler metrology](https://www.science.org/doi/full/10.1126/science.aaw7840?casa_token=Ou9b5Lx8v90AAAAA%3AlcRf2zdjLALsdGTVIyv1JDVf3AfmGXJC-yLMIYxoDhqp5RFzs40reb5DsCXYGfYCMaWkXfRuqmgaCA)
